@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat';
 }
 
 .wrapper {
@@ -78,14 +79,14 @@
 
 .fa-right-from-bracket {
     position: absolute;
-    left: 168px;
+    left: 162px;
     top: 12px;
     font-size: 10px;
 }
 
 .fa-users-line {
     position: absolute;
-    left: 16px;
+    left: 10px;
     top: 12px;
     font-size: 10px;
 }
@@ -107,8 +108,7 @@
 
 .content p {
     color: #FFF;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 24px;
+    font-size: 1.7em;
     font-style: normal;
     line-height: normal;
 }
@@ -123,8 +123,7 @@
 }
 
 .cards {
-    height: 320px;
-    width: 800px;
+ 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -132,6 +131,7 @@
 }
 .cards .flex{
     justify-content: space-between;
+    
 }
 
 
@@ -163,6 +163,8 @@
 }
 
 .card {
+    height: 254px;
+    width: 200px;
     text-align: center;
     color: #99A4AB;
     border-radius: 15px;
@@ -228,8 +230,7 @@
 
 @media screen and (max-width: 992px) {
     .cards {
-        height: 610px;
-        width: 400px;
+        
         grid-template-columns: repeat(2, 1fr);
     }
     .menu{
@@ -288,8 +289,7 @@
     }
 
     .cards {
-        height: 999px;
-        width: 180px;
+        
         grid-template-columns: repeat(1, 1fr);
         }
     
