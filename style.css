@@ -116,15 +116,15 @@
 .content h3 {
     color: #FFF;
     font-family: 'Pirata One', cursive;
-    font-size: 120px;
+    font-size: 100px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 200;
     line-height: normal;
 }
 
 .cards {
     height: 320px;
-    width: 900px;
+    width: 800px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -137,13 +137,13 @@
 
 
 .card i {
-    width: 85px;
-    height: 85px;
+    width: 95px;
+    height: 95px;
     border-radius: 50%;
     border: 3px solid #99A4AB;
     opacity: 0..5;
     font-size: 35px;
-    padding-top: 22px;
+    padding-top: 25px;
     color: #99A4AB;
 }
 
@@ -162,7 +162,7 @@
 
 .card {
     text-align: center;
-    color: white;
+    color: #99A4AB;
     border-radius: 15px;
     position: relative;
     overflow: hidden;
@@ -187,9 +187,10 @@
 }
 
 
-.card4 {
+.card:hover {
     width: 100%;
     border-radius: 15px;
+    color: white;
     background-image: linear-gradient(#D81B24, #1A3751);
     position: relative;
     overflow: hidden;
@@ -201,7 +202,7 @@
     /* min-height: 200px; */
 }
 
-.card::before {
+.card:hover::before {
     content: "";
     position: absolute;
     top: 0;
@@ -215,12 +216,11 @@
     z-index: 1;
     border-radius: inherit;
 }
-
-.card4 i{
+.card:hover i{
     border: 3px solid #fff;
     color: white;
-    
 }
+
 
 
 
